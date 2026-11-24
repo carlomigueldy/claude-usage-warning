@@ -1,0 +1,5 @@
+{
+  "name": "claude-usage-warning",
+  "owner": { "name": "carlomigueldy" },
+  "plugins": [{ "name": "usage-warning", "source": "./" }]
+}

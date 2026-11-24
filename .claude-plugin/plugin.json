@@ -1,0 +1,15 @@
+{
+  "name": "usage-warning",
+  "version": "0.1.0",
+  "description": "Band above the prompt when 5-hour or weekly usage reaches 80%, with reset times in your local time; /usage-ack hides it until the next step.",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "zoneLabel": {
+      "type": "string",
+      "title": "Time zone label",
+      "description": "Shown after reset times, e.g. SGT. Leave empty to use your time zone's short name or UTC offset.",
+      "default": ""
+    }
+  }
+}
